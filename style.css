@@ -1,0 +1,87 @@
+/* 
+  Body Styling: Sets global font, background color, margin, and padding 
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  /* 
+    Main Heading Styling: Styles the main <h1> heading with color, font size, and center alignment 
+  */
+  h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  /* 
+    Sub-Heading Styling: Styles all <h2> headings with a specific color, font size, and margin 
+  */
+  h2 {
+    color: #16a085;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* 
+    Paragraph Styling: Sets the line height, text color, and bottom margin for paragraphs 
+  */
+  p {
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* 
+    Table Styling: Styles the table, including width, border, padding, and text alignment 
+  */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+  }
+  
+  /* 
+    Table Border Styling: Applies a border to table, table header (<th>), and table cells (<td>) 
+  */
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  /* 
+    Table Header Styling: Adds padding, center text alignment, background color, and font color to the table header 
+  */
+  th, td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #16a085;
+    color: white;
+  }
+  
+  /* 
+    Image Styling: Sets the width of the image to 100%, adjusts the height to be proportional, and adds rounded corners 
+  */
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  /* 
+    Link Styling: Changes the color of links and removes the underline. On hover, the underline is restored 
+  */
+  a {
+    color: #2980b9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
